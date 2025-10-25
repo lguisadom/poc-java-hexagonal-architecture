@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "8fdadb42-8269-41bf-8824-3ba3d69dcfd1",
+		"name": "poc-java-hexagonal-architecture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6041738"
+	},
+	"item": [
+		{
+			"name": "find by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -17,7 +17,7 @@ public class UserController {
         this.getUserUseCase = getUserUseCase;
     }
 
-    @GetMapping()
+    @PostMapping()
     public UserResponse createUser(@RequestBody UserRequest userRequest) {
         final User user = new User(null, userRequest.firstName(), userRequest.lastName());
         final User userCreated = this.createUserUseCase.createUser(user);
